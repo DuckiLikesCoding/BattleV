@@ -34,10 +34,10 @@ namespace BattleV
 
         public static List<Move> dragonMoves = new List<Move>()
         {
-            new Move("Scratch", 25),
-            new Move("Fire Breath", 60),
-            new Move("Roar", 10),
-            new Move("Takedown", 100)
+            new Move("Scratch", 50),
+            new Move("Fire Breath", 80),
+            new Move("Roar", 30),
+            new Move("Takedown", 300)
         };
     }
 }

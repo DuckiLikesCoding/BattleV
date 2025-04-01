@@ -19,4 +19,28 @@ namespace BattleV
             Moves = moves;
         }
     }
+    public class Tiger : Animal
+    {
+        public Tiger() : base("Tiger", 150, MoveSetRepository.tigerMoves)
+        {
+        }
+    }
+    public class Bull : Animal
+    {
+        public Bull() : base("Bull", 200, MoveSetRepository.bullMoves)
+        {
+        }
+    }
+    public class Ape : Animal
+    {
+        public Ape() : base("Ape", 135, MoveSetRepository.apeMoves)
+        {
+        }
+    }
+    public class Dragon : Animal
+    {
+        public Dragon() : base("Dragon", 500, MoveSetRepository.dragonMoves)
+        {
+        }
+    }
 }
