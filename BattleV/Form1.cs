@@ -52,13 +52,13 @@ namespace BattleV
         {
             Random random = new Random();
 
-            aiAnimal = Animals[random.Next(0,4)];
+            aiAnimal = Animals[random.Next(0,4)]; //ai animal here
             aiLabel.Text = ($"Ai's {aiAnimal.Name}");
             aiImage.Image = (aiAnimal.Image);
             aiImageFlip(aiImage);
             Refresh(aiAnimal, aiPercentage, aiHealth);
 
-            playerAnimal = new Dragon();
+            playerAnimal = new Dragon(); //change your animal here, no screen yet
             playerLabel.Text = ($"Your {playerAnimal.Name}");
             playerImage.Image = playerAnimal.Image;
             Refresh(playerAnimal, playerPercentage, playerHealth);
